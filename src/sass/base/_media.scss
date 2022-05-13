@@ -1,0 +1,29 @@
+@media (max-width: 1200px) {
+    .promo {
+        &__header {
+            font-size: 35px;
+            line-height: 35px;
+        }
+        &__subheader {
+            margin-top: 10px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+
+}
+@media (max-width: 991px) {
+    .advantages {
+        padding: 50px 0 75px 0;
+    } 
+
+}
+@media (max-width: 761px) {
+    .promo {
+        .header{
+            &__logo {
+                width: 33%;
+            }
+        }
+    }
+}
