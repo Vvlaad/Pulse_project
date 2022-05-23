@@ -18,6 +18,14 @@
         line-height: 20px;
         text-align: center;
         color: #FFFFFF;
+        a {
+            color: #FFF;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+                color: #FFF;
+            }
+        }
     }
     &__phone {
         display: block;
@@ -42,11 +50,25 @@
         width:  50px;
         height: 50px;
         margin: 0 15px;
+        &:nth-child(odd) {
+            margin-top: 20px;
+        }
+        &:hover {
+            background-color: blue;
+            width:  50px;
+            height: 50px;
+            border-radius: 100%;
+        }
+        &:focus {
+            background-color: yellow;
+            width:  50px;
+            height: 50px;
+            border-radius: 100%;
+        }
     }
     &__social {
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
 }

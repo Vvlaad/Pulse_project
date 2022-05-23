@@ -10,6 +10,15 @@
             line-height: 20px;
         }
     }
+    .footer {
+        height: 550px;
+        &__info {
+            height: 230px;
+        }
+        &__map {
+            height: 550px;
+        }
+    }
     
 
 }
@@ -64,6 +73,27 @@
         }
         &__wrapper {
             padding: 0 30px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 350px;
+            padding: 30px 50px 30px 50px;
+            margin-left: 30px;
+        }
+        &__addr {
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__phone {
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__social-item{
+            img {
+                width: 45px;
+                height: 44px;
+            }
         }
     }
     
@@ -151,6 +181,17 @@
             font-size: 14px;
         }
     }
+    .footer {
+        height: 450px;
+        &__info {
+            width: 280px;
+            padding: 25px 40px 25px 39px;
+            margin-left: 100px;
+        }
+        &__map {
+            height: 450px;
+        }
+    }
 }
 @media (max-width: 575px) {
     .promo {
@@ -209,6 +250,33 @@
         &__item {
             margin-top: 65px;
             padding-left: 20px;
+        }
+    }
+    .footer {
+        width: 600px;
+        height: 200px;
+        &__map {
+            display: none;
+        }
+        &__info {
+            margin-left: 0;
+            width: 100%;
+        }
+        &__addr {
+            font-size: 20px;
+            line-height: 20px;
+            a {
+                color: #FFF;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: none;
+                    color: #FFF;
+                }
+            }
+        }
+        &__phone {
+            font-size: 20px;
+            line-height: 20px;
         }
     }  
 }
