@@ -19,6 +19,26 @@
             height: 550px;
         }
     }
+    .modal {
+        padding: 60px 40px 60px 40px;
+        &__subtitle {
+            font-size: 17px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        &__close {
+            top: 35px;
+            right: -25px;
+        }
+        .feed-form {
+            input {
+                height: 45px;
+                font-size: 12px;
+                margin-bottom: 10px;
+            }
+        }
+    }
     
 
 }
@@ -103,7 +123,6 @@
         max-width: 700px;
     }
    .promo {
-       width: 600px;
        &__header {
            font-size: 30px;
        }
@@ -119,7 +138,6 @@
        }
    } 
    .advantages {
-       width: 600px;
        &__wrapper {
            display: flex;
            flex-direction: column;
@@ -146,7 +164,6 @@
         }
     }
     .consultation {
-        width: 600px;
         min-height: 550px;
         padding: 70px 0 62px 0;
         &__descr {
@@ -165,7 +182,6 @@
         }
     }
     .carousel {
-        width: 600px;
         &__inner {
             width: 600px;
         }
@@ -176,7 +192,6 @@
         }
     }
     .feeds {
-        width: 600px;
         &__descr {
             font-size: 14px;
         }
@@ -195,6 +210,7 @@
 }
 @media (max-width: 575px) {
     .promo {
+        width: 600px;
         min-height: 500px;
         padding: 15px 20px;
         &__header {
@@ -228,9 +244,16 @@
             font-size: 14px;
         }
     }
+    .advantages {
+        width: 600px;
+    }
     .consultation {
+        width: 600px;
         min-height: 450px;
         padding: 15px 20px;
+    }
+    .carousel {
+        width: 600px;
     }
     .slick-slide {
         img {
@@ -247,6 +270,7 @@
         }
     }
     .feeds {
+        width: 600px;
         &__item {
             margin-top: 65px;
             padding-left: 20px;
@@ -278,6 +302,12 @@
             font-size: 20px;
             line-height: 20px;
         }
-    }  
+    }
+    .modal {
+        padding: 35px 40px 40px 40px;
+        &__close {
+            top: 23px;
+        }
+    }
 }
 
