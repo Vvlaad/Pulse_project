@@ -282,9 +282,6 @@
             margin-top: 65px;
             padding-left: 20px;
         }
-        img {
-            display: none;
-        }
     }
     .footer {
         width: 600px;
@@ -301,7 +298,7 @@
             line-height: 20px;
             a {
                 color: #FFF;
-                text-decoration: none;
+                text-decoration: underline;
                 &:hover {
                     text-decoration: none;
                     color: #FFF;
